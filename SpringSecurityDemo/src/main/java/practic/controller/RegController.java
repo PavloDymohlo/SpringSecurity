@@ -1,12 +1,12 @@
-package controller;
+package practic.controller;
 
-import entity.UserEntity;
+import practic.entity.UserEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import repository.UserRepository;
+import practic.repository.UserRepository;
 
 @RestController
 @RequiredArgsConstructor

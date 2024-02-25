@@ -1,4 +1,4 @@
-package entity;
+package practic.entity;
 
 public enum UserRole {
     ADMIN,

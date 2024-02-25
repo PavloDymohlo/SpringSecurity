@@ -1,6 +1,6 @@
-package security;
+package practic.security;
 
-import entity.UserRole;
+import practic.entity.UserRole;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

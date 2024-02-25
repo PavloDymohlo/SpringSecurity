@@ -1,11 +1,11 @@
-package entity;
+package practic.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
 
 @Entity
-@Table(schema = "public",name = "users")
+@Table(schema = "public", name = "users")
 @Data
 public class UserEntity {
     @Id

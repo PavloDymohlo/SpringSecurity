@@ -1,4 +1,4 @@
-package controller;
+package practic.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -16,6 +16,7 @@ public class UserController {
     public ResponseEntity<String> user() {
         return ResponseEntity.ok("Hello user!");
     }
+
     @GetMapping("/userVip")
     @PreAuthorize("hasAuthority('VIP')")
     public ResponseEntity<String> userVip() {
